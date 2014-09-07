@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="40" height="30" tilewidth="16" tileheight="16">
+ <tileset firstgid="1" name="ground_1x1" tilewidth="32" tileheight="32">
+  <image source="../../../dev/test-phaser/phaser-examples/examples/assets/tilemaps/tiles/ground_1x1.png" trans="ff00ff" width="800" height="32"/>
+ </tileset>
+ <layer name="Calque de Tile 1" width="40" height="30">
+  <data encoding="base64" compression="zlib">
+   eJzlmMkOgkAUBHFBUdx3//9HvXRf+iLMmFCJfakwGUjRecyBpmFnBic9VE+qV4bqSfXKUD2pXpkhnguxFVfiWuzEjbgVe3En7sX5j7wIGeKZZ7rfP/tyP0/Rvb5in9drvQgp6c9zdxY9j+71Edee3z7213oRUtLfSXQ/F9G9HmL/XfR8+hyo9SJkTH+eI89PG8zz7ireYt3PqfUiZEx/nreleBTfsa+La5+TeX+tFyEl3+9YujfP6b/N3xShemWonlSvDNWT6pWZ+v/KN34Ac20Ccg==
+  </data>
+ </layer>
+ <objectgroup name="collision" width="40" height="30">
+  <object name="centre" x="145" y="126" width="350" height="223"/>
+  <object name="top" x="1" y="0" width="639" height="30"/>
+  <object name="left" x="-1" y="30" width="33" height="448"/>
+  <object name="bottom" x="32" y="446" width="607" height="31"/>
+  <object name="right" x="608" y="32" width="32" height="414"/>
+ </objectgroup>
+</map>
